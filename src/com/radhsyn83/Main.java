@@ -7,8 +7,6 @@ package com.radhsyn83;
  * PDO11K
  */
 
-import java.util.Scanner;
-
 public class Main {
 
     private static String nama = "Fathur Radhy";
@@ -20,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Pegawai p = new Pegawai();
+        GajiPegawai p = new GajiPegawai();
 
         p.setNama(nama);
         p.setAlamat(alamat);

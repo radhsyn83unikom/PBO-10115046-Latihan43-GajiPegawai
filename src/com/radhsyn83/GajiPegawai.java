@@ -2,7 +2,7 @@ package com.radhsyn83;
 
 import java.util.Scanner;
 
-public class Pegawai {
+public class GajiPegawai {
     private String nama;
     private String alamat;
     private int uangTransport;
