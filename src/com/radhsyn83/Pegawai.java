@@ -63,6 +63,13 @@ public class Pegawai {
     }
 
     public void tampilData(String nama, String alamat, int uangTransport, int uangTunjangan, int gajiPokok, int totalGaji) {
+        System.out.println("### Data Gaji Pegawai Karyawan PT. KAKATU ###");
+        System.out.println("------------------");
+        System.out.println ("Nama Karyawan : " + nama);
+        System.out.println("Alamat : " + alamat);
+        System.out.println("Uang Transport : Rp. " + uangTransport);
+        System.out.println("Uang Tunjangan : Rp. " + uangTunjangan);
+        System.out.println("Gaji Pokok : Rp. " + gajiPokok);
         System.out.println("TOTAL GAJI : Rp. " + totalGaji);
     }
 

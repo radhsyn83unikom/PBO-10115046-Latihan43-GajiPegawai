@@ -11,24 +11,22 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static String nama = "Fathur Radhy";
+    private static String alamat = "Jl. Teuku Umar";
+    private static int uTransport = 250000;
+    private static int uTunjangan = 300000;
+    private static int gapok = 4500000;
+
     public static void main(String[] args) {
 	// write your code here
 
-        Scanner s = new Scanner(System.in);
         Pegawai p = new Pegawai();
 
-        System.out.println("### Data Gaji Pegawai Karyawan PT. KAKATU ###");
-        System.out.println("------------------");
-        System.out.print("Nama Karyawan : ");
-        p.setNama(s.nextLine());
-        System.out.print("Alamat : ");
-        p.setAlamat(s.nextLine());
-        System.out.print("Uang Transport : Rp. ");
-        p.setUangTransport(s.nextInt());
-        System.out.print("Uang Tunjangan : Rp. ");
-        p.setUangTunjangan(s.nextInt());
-        System.out.print("Gaji Pokok : Rp. ");
-        p.setGajiPokok(s.nextInt());
+        p.setNama(nama);
+        p.setAlamat(alamat);
+        p.setUangTransport(uTransport);
+        p.setUangTunjangan(uTunjangan);
+        p.setGajiPokok(gapok);
         p.totalGaji(p.getUangTransport(), p.getUangTunjangan(), p.getGajiPokok());
         p.tampilData(
                 p.getNama(),
